@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 
 import styles from "./Login.module.css";
 
-
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -61,12 +60,7 @@ const Login = () => {
         </label>
 
         <label className={styles.button}>
-          {!loading && (
-            <button>
-     
-              Entrar
-            </button>
-          )}
+          {!loading && <button>Entrar</button>}
           {loading && <button disabled>Aguarde....</button>}
         </label>
         {error && <p className="error">{error}</p>}
