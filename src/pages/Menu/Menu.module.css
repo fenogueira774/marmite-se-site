@@ -1,0 +1,7 @@
+.menu{
+    padding: 1em;
+}
+
+.menu h3 {
+    border-bottom: 1px solid var(--yellow);
+}

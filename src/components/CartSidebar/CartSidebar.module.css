@@ -1,0 +1,60 @@
+.cartSidebar {
+  border: 50px black solid;
+
+}
+
+.background {
+  position: fixed;
+  top: 11%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.shoppingCart {
+  height: 60vh;
+  overflow-y: auto;
+  margin-top: 1.5em;
+  box-shadow: 0 0 10px 2px;
+  background-color: var(--white);
+  padding: 0;
+}
+
+.shoppingCart h3 { 
+    margin-left: 1em;
+    text-decoration: underline var(--yellow);
+}
+
+.productsList {
+    margin: 0;
+    margin-left: -1em;
+    height: 100%;
+    padding: 0;
+    justify-items: stretch;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--grey);
+    padding: 2em;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: var(--green);
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size:large;
+}

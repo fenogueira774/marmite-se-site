@@ -1,0 +1,103 @@
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+input::placeholder,
+textarea::placeholder {
+  
+  color: #aaa
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+a,
+nav button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  transition: .4s;
+  font-size: 1em;
+  cursor: pointer;
+ 
+}
+
+a:hover,
+nav button:hover {
+  color: var(--pink);
+}
+
+
+/*form style*/
+form {
+  max-width: 100%;
+  margin: 0;
+}
+
+form button {
+  display: block;
+  margin-left: auto;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+
+label span {
+  font-weight: bold;
+  text-align: left;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: none;
+  border: 1px solid var(--grey-dark);
+  padding: 0.3em;
+  font-size: 1em;
+  background-color: var(--grey-light);
+  justify-content: center;
+}
+
+input::placeholder {
+  color:var(--grey-dark);
+  font-size: 1em;
+}
+
+textarea::placeholder {
+  color:var(--grey-dark);
+  font-size: 1em;
+}
+
+.container .error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.success {
+  color: var(--green);
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+

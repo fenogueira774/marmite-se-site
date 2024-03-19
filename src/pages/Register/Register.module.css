@@ -1,0 +1,19 @@
+.register {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register h1 {
+  text-decoration: underline var(--yellow);
+}
+
+.form {
+  width: 40%;
+}
+
+.button {
+  align-items: center;
+}

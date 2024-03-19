@@ -1,0 +1,46 @@
+.button {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: fit-content;
+  color: var(--black);
+  padding: 0.3em;
+  cursor: pointer;
+  margin: 0 5px 0;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.button svg {
+  margin: 0 5px 0 0;
+  font-size: 1em;
+}
+
+.button:hover,
+.button:focus {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: fit-content;
+  color: var(--black);
+  padding: 0.3em;
+  cursor: pointer;
+  margin: 0 5px 5px;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+
+.closeButton {
+ font-size: 1em;
+ text-align: center;
+ background-color: var(--yellow);
+ border-radius: 10px;
+}

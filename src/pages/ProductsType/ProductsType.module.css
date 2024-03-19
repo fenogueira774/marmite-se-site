@@ -1,0 +1,46 @@
+.productType {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.tittle {
+  text-align: center;
+}
+
+.tittle h1{
+  text-decoration: underline var(--pink);
+}
+
+.buttonForm {
+  display: block;
+  margin-left: auto;
+  text-align: right;
+  
+}
+
+.navLinkButton {
+  display: block;
+  margin-left: auto;
+  padding: 0;
+  background-color: var(--yellow);
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.productType h3 {
+  text-align: justify;
+}
+
+.productType p {
+  font-weight: bold;
+}
+
+.productType li {
+  font-weight: 400;
+}
+
+.productType span {
+  font-weight: bold;
+  font-style: italic;
+}

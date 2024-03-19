@@ -1,0 +1,21 @@
+.login {
+   margin-top: 1em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+
+ .login h1 {
+   text-decoration: underline var(--yellow);
+   margin-bottom: 2em;
+ }
+
+ .login form {
+   width: 40%; 
+ }
+
+
+  .button  {
+   align-items: center;
+  }
