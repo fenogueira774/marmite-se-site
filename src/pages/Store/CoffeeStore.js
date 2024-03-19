@@ -17,7 +17,7 @@ const CoffeeStore = () => {
          src={image}
          name="Nome do Produto"
          price="15,00"
-         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+         description="Coffe break."
          
        />
        </div>))}
